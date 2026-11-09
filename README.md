@@ -56,7 +56,7 @@ It focuses on monitoring water temperature, Total Dissolved Solids (TDS), turbid
 - DallasTemperature
 - HX711
 
-## 🔩 Hardware Components
+## Hardware Components
 
 | Component | Purpose |
 |---|---|
@@ -69,7 +69,7 @@ It focuses on monitoring water temperature, Total Dissolved Solids (TDS), turbid
 | HX711 | Load-cell signal amplification |
 | Vibration Motor | Proposed physical hydration reminder |
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 The following diagram illustrates the proposed hardware connections and GPIO assignments for the prototype.
 
@@ -92,7 +92,7 @@ The ESP32 acts as the central controller of the prototype.
 6. The OLED displays the information through multiple screens.
 7. The firmware activates an hourly hydration reminder.
 
-## 🖥️ OLED Display
+## OLED Display
 
 The OLED interface contains six rotating screens:
 
@@ -106,6 +106,11 @@ The OLED interface contains six rotating screens:
 | 6 | Daily Water Goal |
 
 The display also presents temperature warnings and hydration reminders.
+## Project Demonstration
+
+Watch the Smart Water Bottle prototype in action.
+
+[▶ Watch Demonstration](https://youtube.com/shorts/xD6jFmAk1aY)
 
 ## Testing and Results
 
